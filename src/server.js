@@ -33,3 +33,4 @@ app.get('/users/:id', async (req, res) => {
 app.listen(3000, () => {
   console.log('Vulnerable test app listening on http://localhost:3000')
 })
+
