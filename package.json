@@ -1,0 +1,14 @@
+{
+  "name": "auditlens-test-vulnerable",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Small intentionally vulnerable app for scanner testing.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node tests/smoke.test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
